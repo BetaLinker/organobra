@@ -1,0 +1,49 @@
+.VerticalMenu{
+    
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #659ffc;
+    margin-top: 80px; 
+}
+
+.VerticalMenu ul li{
+    color: rgba(0, 0, 0, 0.856);
+    font-weight: bold;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(0, 1, 71, 0.3);
+
+}
+
+.SubMenu1{
+    transition: opacity 500ms ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.SubMenu2{
+    transition: opacity 500ms ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.SubItems{
+    margin-left: 25px;
+}
+
+
+.SubMenu1.active{
+    opacity: 1;
+    height: auto;
+
+}
+
+.SubMenu2.active{
+    opacity: 1;
+    height: auto;
+}
